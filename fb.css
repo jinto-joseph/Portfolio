@@ -1,0 +1,291 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+
+}
+body{
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.logo{
+    width: 50%;
+   padding-top: 30px;
+   float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.logo-text{
+   
+    color: #fff;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 170px;
+
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+.login-controls{
+    margin-left: 110px;
+}
+.Forgotten{
+    color: #9cb4db;
+    font-size: 11px;
+    text-decoration: none;
+}
+.sub-btn{
+    color: #fff;
+    background:#4267b2;
+    height: 20px;
+    border-color:#29487d;
+    cursor: pointer;
+    width: 50px;
+    border-width: 1px;
+    border-radius: 2px;
+
+    
+}
+.sub-btn:hover{
+    background: #29487a ;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-top: 2px;
+    padding-left: 7px;
+    
+}
+.right-section{
+    width: 35%;
+    float: left;
+    padding: 18px 86px;
+}
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    height: 660px;
+    width: 100%;
+    float: left;
+}
+.image{
+    width: 581px;
+    margin-left: 134px;
+
+}
+.para1{
+    margin-top: 52px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #3B598B;
+    margin-left: 155px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    line-height: 32px;
+}.Create-Account{
+    margin-left: -7px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.quick{
+    margin-top: -16px;
+    margin-left: -5px;
+    color: rgb(66, 66, 66);
+
+}
+.Full-Name{
+  
+        width: 190px;
+        
+        margin-left: -5px;
+        border-radius: 7px;
+        border-width: 1px;
+        border-style: solid;
+    border-color: rgb(202, 210, 224);
+}
+.Surname{
+    width: 190px;
+      
+        margin-left: 6px;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+    border-color: rgb(202, 210, 224);
+}
+.Full-Name,.Surname{
+    margin-top: 12px;
+    padding:13px 25px 13px 15px ;
+    outline: none;
+}
+.email{
+    margin-top: 12px;
+    padding: 13px 25px 13px 15px;
+    width: 432px;
+    margin-left: -5px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(202, 210, 224);
+    outline: none;
+}
+.New-password{
+    margin-top: 12px;
+    padding: 13px 25px 13px 15px;
+    width: 432px;
+    margin-left: -5px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(202, 210, 224); 
+    outline: none;
+}
+.Birthday{
+    color: rgb(112 109 109);
+    letter-spacing: .25px;
+    margin-top: 10px;
+    margin-left: -2px;
+    font-size: 15px;
+}
+.day{
+    cursor: pointer;
+    border-style: solid 1px;
+    border-color: rgb(202, 210, 224); 
+    border-radius: 7px;
+    border-width: 0px;
+    outline: none;
+    margin-top: -6px;
+}
+.month{
+    cursor: pointer;
+    margin-top: -19px;
+    margin-left: 52px;
+    border-style: solid 1px;
+    border-color: rgb(202, 210, 224); 
+    border-radius: 7px;
+    border-width: 10px;
+    outline: none;
+}
+.year{
+    cursor: pointer;
+    margin-top: -19px;
+    margin-left: 118px;
+    border-style: solid 0px;
+    border-color: rgb(202, 210, 224); 
+    border-radius: 7px;
+    border-width: 10px;
+    outline: none; 
+}
+.gender-text{
+    color: rgb(112 109 109);
+    letter-spacing: .25px;
+    margin-top: 10px;
+    margin-left: -2px;
+    font-size: 15px;
+}
+
+.btn{
+    cursor: pointer;
+    margin-left: 7px;
+    margin-top: -1px;
+    border-width: 1px;
+    border-radius: 150px;
+    color: grey;
+    background: rgb(77, 77, 77);
+}
+.btn:hover{
+ background: rgb(0, 0, 0);   
+}
+
+.para {
+    font-size: 12px;
+    width: 500px;
+    margin-top: -4px;
+    line-height: 17px;
+    margin-left: -1px;
+    color: #565454;
+}
+.sign-up{
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    outline: none;
+    background: linear-gradient(
+360deg
+, #000c, green);
+    border-radius: 5px;
+    border-width: 2px;
+    width: 225px;
+    height: 45px;
+}
+.sign-up:hover{
+    
+    background: green;
+}
+.bttn{
+    cursor: pointer;
+    margin-left: 7px;
+    margin-top: -1px;
+    border-width: 1px;
+    border-radius: 150px;
+    color: grey;
+    background: rgb(77, 77, 77);
+}
+.bttn:hover{
+ background: rgb(0, 0, 0);   
+}   
+.celebrity{
+    margin-top: 40px;
+    font-size: 14px;
+}
+.create{
+    cursor: pointer;
+    word-spacing: 0px;
+    text-decoration: none;
+    color: #0f2970eb;
+}
+.band{
+    margin-top: -16px;
+    margin-left: 98px;
+    word-spacing: 0px;
+    color: #47484a;
+}
+.terms{
+    cursor: pointer;
+    color: #0f2970eb;
+    text-decoration: none   ;
+}
+.data{
+    cursor: pointer;
+    color: #0f2970eb;
+    text-decoration: none   ;
+}
+.cookie{
+    cursor: pointer;
+    color: #0f2970eb;
+    text-decoration: none   ;
+}
+.footer{
+    margin-top: 110px;
+    float: left;
+    color: #ffff;
+    width: 100%;
+    height: 110px
+}
+.languages{
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 200px;
+    float: left;
+    width: 500px;
+    word-spacing: 15px;
+    letter-spacing: 1.5px;
+} 
