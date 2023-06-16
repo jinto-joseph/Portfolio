@@ -31,7 +31,10 @@ body{
     text-align: center;
     border-bottom: .7vw solid #fff;
     overflow: hidden;
-    animation: anim 4.5s linear infinite;
+    animation: anim 2.5s linear infinite;
+    animation-delay:1s;
+    animation-fill-mode: both;
+    
 }
 
 .box h2{ 
@@ -44,21 +47,21 @@ body{
         height: 0;
     }
     30%{
-        width: 59vw;
-        height: 0;
+        width: 30vw;
+        height: 0vw;
 
     }
     60%{
-        width: 59vw;
-        height: 12vw;
+        width: 30vw;
+        height: 7vw;
     }
     80%{
-        width: 59vw;
-        height: 12vw;
+        width: 0vw;
+        height: 0vw;
     }
     100%{
-        width: 59px;
-        height: 12px;
+        width: 0vw;
+        height: 0vw;
     }
 }
 .h2{
