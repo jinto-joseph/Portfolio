@@ -10,11 +10,11 @@ body{
     height:auto;
     vertical-align:middle;
     align-items:center;
-    margin-left: 30%;
+    margin-left: 25%;
     transition: 0.3s ease-in-out all;
     border-radius: 5px;
     cursor: pointer;
-    clip-path: circle(65px at 121px 115px);
+    clip-path: circle(75px at 150px 140px);
     background-color: black;
     
   
@@ -24,7 +24,7 @@ body{
 }
 .box{
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -33.5%);
