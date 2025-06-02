@@ -92,7 +92,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 Feel free to reach out for collaboration or inquiries:
-- 📧 Email: jintoppy@gmail.com (mailto:jintoppy@gmail.com)
+- 📧 Email: jintojoseph.jo@gmail.com (mailto:jintojoseph.jo@gmail.com)
 
 - 🌐 LinkedIn: Jinto Joseph
 
