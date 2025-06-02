@@ -2,12 +2,12 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a B.Tech Computer Science and Engineering student. The website features a clean, responsive design with interactive elements like a light/dark theme toggle, font size controls, and a contact form integrated with Google Sheets. It highlights my work in AI, computer vision, and web development, reflecting my passion for technology and creativity.
 
-🌐 **Live Demo**: [View on GitHub Pages](https://jinto-joseph.github.io/Portfolio/) *(Deploy this after setting up GitHub Pages)*
+🌐 **Live Demo**: [View on GitHub Pages](https://jinto-joseph.github.io/Portfolio/) 
 
 ---
 
 ## About Me
-I’m Jinto Joseph (Jo), a first-year B.Tech CSE student at Cardinal University, Coimbatore, with a strong interest in AI, computer vision, and deep learning. I’m also a competitive programmer and enjoy creative hobbies like drawing, playing the piano and ukulele, and maintaining a journal.
+I’m Jinto Joseph (Jo), a first-year B.Tech CSE student at Karunya Institute of Technology and Sciences, Coimbatore, with a strong interest in AI, computer vision, and deep learning. I’m also a competitive programmer and enjoy creative hobbies like drawing, playing the piano and ukulele, and maintaining a journal.
 
 - 🎓 **Education**: B.Tech in Computer Science and Engineering, Cardinal University, Coimbatore
 - 🤖 **Interests**: AI, Computer Vision, Deep Learning, Competitive Programming
@@ -92,11 +92,11 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 Feel free to reach out for collaboration or inquiries:
-- 📧 Email: jintojoseph.jo@gmail.com (mailto:jintojoseph.jo@gmail.com)
+- 📧 Email: [jintojoseph.jo@gmail.com](mailto:jintojoseph.jo@gmail.com)
 
-- 🌐 LinkedIn: Jinto Joseph
+- 🌐 LinkedIn: [Jinto Joseph](https://linkedin.com/in/jinto-joseph-)
 
-- 📱 WhatsApp: Chat with me
+- 📱 WhatsApp: [Chat with me](https://wa.me/7306673269?text=Hi_Jo)
 
 Thank you for visiting my portfolio!🚀 
 
