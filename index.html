@@ -5,59 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JINTO JOSEPH</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" class="img-fluid rounded-circle" href="1684768791410.jpg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="st.css" type="text/css">
-    
 </head>
 <body>
-    <header class="bg-danger" style="position: fixed; width: 100%; z-index: 1;">
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+    <div id="scroll-progress"></div>
+    <header>
         <div class="row text-white">
             <div class="col-md-6 col-8 p-3 pl-5">
-                <a href="https://wa.me/7306673269?text=Hi_Jo"><h2 style="text-decoration-style:double; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" class="box">JINTO JOSEPH</h2></a>
-             </div>
+                <a href="https://wa.me/7306673269?text=Hi_Jo" class="navbar-brand"><h2>JINTO JOSEPH</h2></a>
+            </div>
             <div class="col-md-6 col-4 my-auto">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                  
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white" href="#service-section">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#experience-section">Experiences</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-white" href="#contact-section">Contact Me</a>
-                          </li>
-                      </ul> 
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home-section">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service-section">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience-section">Experiences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects-section">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-section">Contact Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <button id="theme-toggle" class="btn btn-sm" title="Toggle Theme">
+                                    <i class="fas fa-moon"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item font-size-controls">
+                                <button onclick="changeFontSize('small')" title="Smaller Font"><i class="fas fa-minus-circle"></i></button>
+                                <button onclick="changeFontSize('medium')" title="Default Font"><i class="fas fa-text-height"></i></button>
+                                <button onclick="changeFontSize('large')" title="Larger Font"><i class="fas fa-plus-circle"></i></button>
+                            </li>
+                        </ul>
                     </div>
-                  </nav>
+                </nav>
             </div>
-
-        </div> 
+        </div>
     </header>
-    <section  id="home-section" style="padding-top: 7em;">
+    <section id="home-section" style="padding-top: 5em;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <a href="https://www.instagram.com/j1n_t0_/"><img src="20230518_103553.jpg" class="jinto" alt="you are not eligible to view JINTO " alt="Avatar" style="margin-left: 25%;"
-  class="img-fluid rounded-circle"  ></a> 
+                    <a href="https://www.instagram.com/j1n_t0_/">
+                        <img src="jinto.jpg" id="jinto-image" class="jinto" alt="Jinto Joseph">
+                    </a>
                 </div>
-                <div class="col-md-6" class="text-center">
-                    <h4 class="ml-5 pt-4" class="text-center" >Web Designer & Thoughtist </h4>
-                        <h4>Perinthalmanna,Malappuram,Kerala</h4>
-                    <blockquote>
-                    <p class="mr-5" class="text-center">"Don't Play With TIME ,
-                        Cause No One Knows How to Tame It..."</p> 
-                        <footer class="text-center">- JINTO</footer>
+                <div class="col-md-6">
+                    <h4 class="h2">Computer Vision Engineer</h4>
+                    <h5>Sulthan Bathery, Wayanad, Kerala</h5>
+                    <p class="lead mt-3">
+                        Aspiring Computer Vision Engineer with hands-on experience in image processing, deep learning, and real-time video analytics. Passionate about building intelligent vision systems that bridge the gap between visual data and smart decisions.
+                    </p>
+                    <blockquote class="mt-3">
+                        <p>"Don't Play With TIME, Cause No One Knows How to Tame It..."</p>
+                        <p style="background-color: #761db9" class="text-center font-weight-bold rounded p-4">— Jinto</p>
                     </blockquote>
                 </div>
             </div>
@@ -65,198 +83,362 @@
     </section>
     <section class="bg-light" id="service-section" style="padding-top: 7em;">
         <div class="container">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center section-title">Services</h1>
             <div class="row pt-2">
-                <div class="col-md-4"> 
-                    <div class="card text-center p-3 mt-4 " >
-                        <i class="fab fa-html5 display-1 text-primary"></i>
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fab fa-html5 display-1"></i>
                         <div class="card-body">
-                          <h5 class="card-title">Website Designing</h5>
-                          <p class="card-text">Awesome good looking Website for you is being shaped in my computer.Just contact me to pick it up.</p>
-                          
+                            <h5 class="card-title">Website Designing</h5>
+                            <p class="card-text">Crafting visually appealing and user-friendly websites tailored to your needs. Your dream site is taking shape — feel free to reach out and make it yours.</p>
                         </div>
-                      </div> 
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center p-3 mt-4" >
-                        <i class="fas fa-images display-1 text-primary"></i>
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fas fa-images display-1"></i>
                         <div class="card-body">
-                          <h5 class="card-title">Photoshop Editing</h5>
-                          <p class="card-text">Mesmerizing editings and graphic works are there 4 u.If you want it just press the call button in your phone...</p>
-                          
+                            <h5 class="card-title">Photo Editing</h5>
+                            <p class="card-text">Delivering stunning photo edits and graphic designs with creativity and precision. Just one call away from transforming your visuals.</p>
                         </div>
-                      </div> 
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center p-3 mt-4" >
-                        <i class="fas fa-paint-brush display-1 text-primary"></i>
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fas fa-paint-brush display-1"></i>
                         <div class="card-body">
-                          <h5 class="card-title">Caricature Making</h5>
-                          <p class="card-text">Fabrigasting, Wonderful and Creative Caricature of your's is here in my PC. Just call me to get it.</p>
-                          
+                            <h5 class="card-title">Caricature Making</h5>
+                            <p class="card-text">Creating unique, imaginative, and high-quality caricatures. If you're looking for a fun and artistic take on your portrait, I’ve got it ready for you.</p>
                         </div>
-                      </div> 
-                </div>
-                </div>
-                <div class="row pt-4">
-                <div class="col-md-4">
-                    <div class="card text-center p-3 mt-4" >
-                        <i class="fas fa-music display-1 text-primary"></i>
-                        <div class="card-body">
-                          <h5 class="card-title">Musician</h5>
-                          <p class="card-text">Hurray! Whatsup Guys, Do you wanna hear some pleasing blended notes, then don't wait for anyone just contact me...</p>
-                          
-                        </div>
-                      </div> 
-                </div>  
-                <div class="col-md-4">
-                    <div class="card text-center p-3 mt-4" >
-                        <i class="fas fa-palette display-1 text-primary"></i>
-                        <div class="card-body">
-                          <h5 class="card-title">Painter</h5>
-                          <p class="card-text">I am not graduated. But I am Confident that if I agreed to draw anyone, whatever hardship may it need, I'll do it...</p>
-                          
-                        </div>
-                      </div> 
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card text-center p-3 mt-4" >
-                        <i class="fas fa-star-of-david display-1 text-primary"></i>
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fas fa-music display-1"></i>
                         <div class="card-body">
-                          <h5 class="card-title">Creative Thinker</h5>
-                          <p class="card-text">If you want to get a noval plan about anything like for bussiness, or whatever you want, I'm here 4 U.Just contact me...</p>
-                          
+                            <h5 class="card-title">Melophile</h5>
+                            <p class="card-text">If you're into soulful tunes and melodious blends, I’d love to share my music with you. Let’s connect — music is just a message away.</p>
                         </div>
-                      </div> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fas fa-palette display-1"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Artist</h5>
+                            <p class="card-text">Though not professionally trained, I pour dedication and detail into every painting. If I promise to paint, I’ll give it everything I’ve got.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-4">
+                        <i class="fab fa-python display-1"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Python Development Services</h5>
+                            <p class="card-text">Efficient and reliable solutions to automate tasks, build prototypes, and enhance your applications with clean Python code.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
         </div>
     </section>
     <section class="bg-white" id="experience-section" style="padding-top: 7em;">
-      <div class="container">
-        <h1 class="text-center">Experiences</h1>
-        <div class="row pt-2 "> 
-          <div class="col-md-4 mt-4">
-            <a href="index copy.html" style="text-decoration: none;"class="text-primary;">
-            <div class="card text-center p-3" >
-                <img src="Document - Google Chrome 05-07-2021 13_13_10.png" class="card-img-top" style="height:12em;" alt="">
-                <div class="card-body">
-                  <h5 class="card-title">Website Design</h5>
-                  <p class="card-text">Facebook Duplicate Site</p>
-                  
-                </div>
-              </div>  </a>
-        </div>
-
-        <div class="col-md-4 mt-4">
-          <a href="https://webneel.com/daily/sites/default/files/images/daily/09-2014/11-zuckerberg-caricature-by-mahesh.jpg" style="text-decoration:none;" class="text-primary">
-          <div class="card text-center p-3" >
-              <img src="muth.jpg" class="card-img-top" style="height: 12em;" alt="" >
-              <div class="card-body">
-                <h5 class="card-title">Caricature Making</h5>
-                <p class="card-text">Caricature of anyone</p>
-                
-              </div>
-            </div> </a>
-      </div>
-
-      <div class="col-md-4 mt-4">
-        <a href="https://i.ytimg.com/vi/UA-XqybOhRk/maxresdefault.jpg" style="text-decoration: none;" class="text-primary" >
-        <div class="card text-center p-3" >
-            <img src="first calligraphy.jpg" class="card-img-top" style="height: 12em;" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Calligraphy Maker</h5>
-              <p class="card-text">Your name in calligraphy</p>
-              
-            </div>
-          </div> </a>
-    </div>
-
-        
-
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-light" style="padding-top: 7em;" id="contact-section">
         <div class="container">
-          <h1 class="text-center">Contact me</h1>
-          <div class="row pt-3">
-            <div class="col-md-12">
-            <form id="submit-form"  action="">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputName" class="ml-2">Name</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+            <h1 class="text-center section-title">Experiences</h1>
+            <div class="row pt-2">
+                <div class="col-md-4 mt-4">
+                    <a href="index copy.html" style="text-decoration: none;" class="text-primary">
+                        <div class="card text-center p-3">
+                            <img src="Document - Google Chrome 05-07-2021 13_13_10.png" class="card-img-top" style="height:12em;" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Website Design</h5>
+                                <p class="card-text">Facebook Duplicate Site</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="inputPassword4" class="ml-2">Place</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="Place">
+                <div class="col-md-4 mt-4">
+                    <a href="https://i.pinimg.com/736x/0a/f6/97/0af6970c3f9ff17aaf86f9a2de38a926.jpg" style="text-decoration:none;" class="text-primary">
+                        <div class="card text-center p-3">
+                            <img src="muth.jpg" class="card-img-top" style="height: 12em;" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Caricature Making</h5>
+                                <p class="card-text">Caricature of anyone</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputName" class="ml-2">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <div class="col-md-4 mt-4">
+                    <a href="https://i.ytimg.com/vi/UA-XqybOhRk/maxresdefault.jpg" style="text-decoration: none;" class="text-primary">
+                        <div class="card text-center p-3">
+                            <img src="first calligraphy.jpg" class="card-img-top" style="height: 12em;" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Calligraphy Maker</h5>
+                                <p class="card-text">Your name in calligraphy</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="inputPassword4" class="ml-2">Mobile</label>
-                  <input type="tel" class="form-control" id="inputPassword4" placeholder="Mobile">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputAddress">Message</label>
-                  <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
-              </div> 
-              
-                <div class="form-group text-center">
-              <button type="submit" class="btn btn-primary text-center" style="width: 100%;">Submit</button>
-                </div>
-            </form>
-          </div>
-          </div>
-          </div>
+            </div>
         </div>
     </section>
-
-    <footer class="bg-danger" id="footer-section" style="z-index: 2;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center text-white pt-3">
-            <a href="https://www.instagram.com/j1n_t0_/"style="text-decoration:none" class="text-white "><i class="fab fa-instagram-square display-5"></i></a>
-            <a href="https://www.facebook.com/jinto.joseph.94651" style="text-decoration: none;" class="text-white"><i class="fab fa-facebook-square display-5"></i></a>
-            <a href="https://wa.me/7306673269?text=Hi_Jo"style="text-decoration: none;" class="text-white"><i class="fab fa-whatsapp-square display-5"></i></a>
-            <p>Copyrights</p>
-          </div>
+   <section class="bg-light" id="projects-section" style="padding-top: 7em;">
+    <div class="container">
+        <h1 class="text-center section-title">Projects</h1>
+        <div class="row pt-2 project-card-wrapper">
+            <div class="col-md-4 mt-4">
+                <div class="card text-center p-3 project-card" data-toggle="modal" data-target="#projectModal1">
+                    <div class="card-body">
+                        <i class="fas fa-hand-pointer display-4 mb-3" style="color: var(--accent-color);"></i>
+                        <h5 class="card-title">InteractAI</h5>
+                        <p class="card-text">A gesture-based system to control computer operations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card text-center p-3 project-card" data-toggle="modal" data-target="#projectModal2">
+                    <div class="card-body">
+                        <i class="fas fa-laptop display-4 mb-3" style="color: var(--accent-color);"></i>
+                        <h5 class="card-title">Students Attendance</h5>
+                        <p class="card-text">A web app to manage and print student attendance records.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card text-center p-3 project-card" data-toggle="modal" data-target="#projectModal3">
+                    <div class="card-body">
+                        <i class="fas fa-book display-4 mb-3" style="color: var(--accent-color);"></i>
+                        <h5 class="card-title">Library Management System</h5>
+                        <p class="card-text">A system to manage library operations like book loans and members.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+</section>
+
+<!-- Modals for Projects (unchanged) -->
+<div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModal1Label">InteractAI</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="InteractAi.jpg" class="img-fluid mb-3" alt="InteractAI">
+                <p>A real-time gesture-based system to control computer operations using hand gestures. Developed to enhance accessibility and improve human-computer interaction for users with limited mobility.</p>
+                <p><strong>Technologies Used:</strong> Python, OpenCV, MediaPipe</p>
+                <p><strong>Link:</strong> <a href="https://github.com/jinto-joseph/InteractAI" target="_blank">View Project</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModal2Label">Students Attendance</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="SAS.jpg" class="img-fluid mb-3" alt="Students Attendance">
+                <p>A web application to manage student attendance, featuring user authentication, password-protected access with hidden input, and the ability to print attendance records. Built with a focus on usability and appealing design using the Poppins font.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Link:</strong> <a href="https://github.com/jinto-joseph/Students-Attendance" target="_blank">View Project</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModal3Label">Library Management System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="LMS.jpg" class="img-fluid mb-3" alt="Library Management System">
+                <p>A C-Program based system to manage library operations such as adding books, tracking loans, and managing members. Built to streamline library workflows efficiently.</p>
+                <p><strong>Technologies Used:</strong> C, SQL (planned)</p>
+                <p><strong>Link:</strong> <a href="https://github.com/jinto-joseph/LibraryManagementSystem" target="_blank">View Project</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <section class="bg-light" id="contact-section" style="padding-top: 7em;">
+        <div class="container">
+            <h1 class="text-center section-title">Contact Me</h1>
+            <div class="row pt-3">
+                <div class="col-md-12">
+                    <form id="submit-form" action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName" class="ml-2">Name</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4" class="ml-2">Place</label>
+                                <input type="text" class="form-control" id="inputPassword4" placeholder="Place" name="place">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail" class="ml-2">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputMobile" class="ml-2">Mobile</label>
+                                <input type="tel" class="form-control" id="inputPassword4" placeholder="Mobile" name="mobile">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Message</label>
+                            <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..." name="message"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary text-center" style="width: 100%;">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-white pt-3">
+                    <a href="https://www.instagram.com/j1n_t0_/" style="text-decoration:none" class="text-white social-icon">
+                        <i class="fab fa-instagram display-5"></i>
+                    </a>
+                    <a href="https://www.facebook.com/jinto.joseph.94651" style="text-decoration: none;" class="text-white social-icon">
+                        <i class="fab fa-facebook display-5"></i>
+                    </a>
+                    <a href="https://wa.me/7306673269?text=Hi_Jo" style="text-decoration: none;" class="text-white social-icon">
+                        <i class="fab fa-whatsapp display-5"></i>
+                    </a>
+                    <p class="mt-3">© 2025 Jinto Joseph. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        const body = document.body;
+        themeToggle.addEventListener('click', () => {
+            body.dataset.theme = body.dataset.theme === 'dark' ? 'light' : 'dark';
+            localStorage.setItem('theme', body.dataset.theme);
+            themeIcon.classList.toggle('fa-moon');
+            themeIcon.classList.toggle('fa-sun');
+            console.log("Theme toggled to:", body.dataset.theme);
+        });
+        if (localStorage.getItem('theme') === 'dark') {
+            body.dataset.theme = 'dark';
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        } else {
+            body.dataset.theme = 'light';
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        }
 
+        // Font Size Toggle
+        function changeFontSize(size) {
+            document.body.style.fontSize = size === 'small' ? '14px' : size === 'medium' ? '16px' : '18px';
+        }
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/3578b48d95.js" crossorigin="anonymous"></script>
-<script>
-  $("#submit-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-          url:"https://script.google.com/macros/s/AKfycbzZygThkhXLZuNkttpCKgCHNBd0X9KKSrvxGD1IrJYtawuFiofgdAYc_hSh4JlIH125sQ/exec",
-          data:$("#submit-form").serialize(),
-          method:"post",
-          success:function (response){
-              alert("Form submitted successfully")
-              window.location.reload()
-              window.location.href="https://google.com"
-          },
-          error:function (err){
-              alert("Something Error")
+        // Back to Top Button
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+        });
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
 
-          }
-      })
-  })
-</script>
+        // Scroll Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.getElementById('scroll-progress').style.width = scrollPercent + '%';
+        });
+
+        // Loader
+        window.addEventListener('load', () => {
+            document.querySelector('.loader').classList.add('hidden');
+        });
+
+        // Jinto Image Blur Effect
+        const jintoImage = document.getElementById('jinto-image');
+        jintoImage.addEventListener('mouseover', () => {
+            if (!jintoImage.classList.contains('unblurred')) {
+                jintoImage.classList.add('unblurred');
+            }
+        });
+        jintoImage.addEventListener('mouseout', () => {
+            if (!jintoImage.classList.contains('permanently-unblurred')) {
+                jintoImage.classList.remove('unblurred');
+            }
+        });
+        jintoImage.addEventListener('click', () => {
+            jintoImage.classList.add('permanently-unblurred');
+            jintoImage.classList.add('unblurred');
+        });
+
+        // Form Submission
+        $("#submit-form").submit((e) => {
+            e.preventDefault();
+            const formData = $("#submit-form").serialize();
+            console.log("Submitting form data:", formData);
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbyZ4MYL5x5RfhZg5WaYuZfoVgJ852iMorlLFfcx6HhmwGywpHmR3z-5Ji2GqHcf76Cd/exec",
+                data: formData,
+                method: "post",
+                success: function (response) {
+                    console.log("Success response:", response);
+                    alert("Form submitted successfully!");
+                    $("#submit-form")[0].reset();
+                    setTimeout(() => {
+                        window.location.href = "https://google.com";
+                    }, 1500);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Form submission error details:", {
+                        status: status,
+                        error: error,
+                        responseText: xhr.responseText,
+                        statusCode: xhr.status
+                    });
+                    alert("Error submitting the form. Please try again later.");
+                }
+            });
+        });
+    </script>
 </body>
 </html>
